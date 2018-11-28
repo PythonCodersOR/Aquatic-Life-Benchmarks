@@ -21,8 +21,12 @@ df.shape
 # what are the coumn names
 col_names = list(df)
 
+# look at column names
 for ii in range(0,df.shape[1]):
-    col_names[ii]
+    print(col_names[ii])
+
+# look at column names in raw form
+col_names
 
 # what's up with the last two names????
 col_names[-2:]
